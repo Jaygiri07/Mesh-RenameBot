@@ -4,10 +4,10 @@ try:
     from .tconfig import Config
 except ImportError:
     class Config:
-        DATABASE_URL = [str, ""]
-        API_HASH = [str, "abcdedf......"]
-        API_ID = [int, 1234567]
-        BOT_TOKEN = [str, "bot:token here"]
+        DATABASE_URL = [str, "mongodb+srv://j32025026:<diTBNy6AvTzCpOYi>@cluster0.mmcgi.mongodb.net/?retryWrites=true&w=majority"]
+        API_HASH = [str, "ba25181c01b50d945748801b6c8b6ecc"]
+        API_ID = [int, 26162072]
+        BOT_TOKEN = [str, "7858858787:AAH0LqQiKhYXtGer-ak9N-X1gB6Y5NlUiuc"]
         COMPLETED_STR = [str, "▰"]
         REMAINING_STR = [str, "▱"]
         MAX_QUEUE_SIZE = [int, 5]
