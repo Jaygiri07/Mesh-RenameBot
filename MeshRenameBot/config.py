@@ -23,7 +23,7 @@ except ImportError:
         FORCEJOIN = [str,""]
         FORCEJOIN_ID = [int,-1002215819339]
 
-        TRACE_CHANNEL = [int, 0]
+        TRACE_CHANNEL = [int, -1002439279319]
 
 try:
     from .tconfig import Commands
